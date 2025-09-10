@@ -24,7 +24,6 @@ bash: echo: write error: No space left on device
 
 
 
-
 **Explanation:**
 Blog: https://embedded-electronicsproject.blogspot.com/2025/09/linux-device-driver-development-using.html
 
