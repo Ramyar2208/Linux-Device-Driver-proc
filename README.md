@@ -24,6 +24,7 @@ bash: echo: write error: No space left on device
 
 
 
+
 **Explanation:**
 Blog: https://embedded-electronicsproject.blogspot.com/2025/09/linux-device-driver-development-using.html
 
@@ -39,7 +40,7 @@ proc_fs.h: https://github.com/torvalds/linux/blob/master/include/linux/proc_fs.h
 
 **Linux commands:**
 
-Installation:
+**Installation:**
 
 1. sudo apt update
 
@@ -51,13 +52,13 @@ Installation:
 
 4. sudo apt install git-all (linux  - git install)
 
-Make Automation:
+**Make Automation:**
 
 5. make
 
 6. make clean
 
-Module commands:
+**Module commands:**
 
 7. sudo insmod driver.ko  (insert our generated object file into kernel)
 
@@ -71,7 +72,7 @@ Module commands:
 
 11. sudo rmmod driver     (remove the module from kernel)
 
-Git commands: (config email and name)
+**Git commands:** (config email and name)
 
 $ git init . -b <name>
 
@@ -91,4 +92,4 @@ $ git log
 
 $ git remote add origin <http-url>
 
-$ git push -u origin main
+$ git push -u origin main 
