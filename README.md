@@ -73,7 +73,7 @@ proc_fs.h: https://github.com/torvalds/linux/blob/master/include/linux/proc_fs.h
 
 **Git commands:** (config email and name)
 
-$ git init . -b <name>
+$ git init . -b main
 
 $ git add .
 
