@@ -22,7 +22,7 @@ bash: echo: write error: No space left on device
 
 **[ 4854.422578]** Error copying data or not enough space to write data
 
-
+# 
 
 **Explanation:**
 Blog: https://embedded-electronicsproject.blogspot.com/2025/09/linux-device-driver-development-using.html
