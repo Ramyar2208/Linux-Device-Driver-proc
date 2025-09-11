@@ -11,7 +11,7 @@ Linux Device Driver
 **ubuntu@primary:~/sample_driver$** echo -n "sample " > /proc/sample_file 
 
 **ubuntu@primary:~/sample_driver$** cat /proc/sample_file
-
+ 
 Linux Device Driver
 
 **sample ubuntu@primary:~/sample_driver$** echo -n "Implementations" > /proc/sample_file 
