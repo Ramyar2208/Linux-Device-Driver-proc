@@ -29,7 +29,7 @@ Blog: https://embedded-electronicsproject.blogspot.com/2025/09/linux-device-driv
 
 Read and write from or to user space and kernel space (using proc file system)
 
-1) Write data provided by user to proc file system in kernel space as long as there is enough space, else return respective error
+1) Write data provided by user to proc file system in kernel space, ensuring there is enough space. If not, return the respective error.
 
 2) Read back the written data from kernel space to user space
 
